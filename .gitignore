@@ -1,0 +1,38 @@
+
+# Dependências Node.js (caso utilize futuramente)
+node_modules/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações locais de editores
+.vscode/
+.idea/
+
+# Arquivos de build e cache
+dist/
+.cache/
+.next/
+.vercel/
+.wrangler/
+
+# Arquivos Python, caso utilize futuramente
+__pycache__/
+.venv/
